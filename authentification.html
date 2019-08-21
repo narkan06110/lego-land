@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bootswatch: Journal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css" media="screen">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container"> 
+      <div class="row">
+        <div class="col-md-5 offset-md-5"></div>
+        <div class="col-md-5 offset-md-5">
+          <br><br><br>
+          <form action="form-group">
+            <h1 class="text-center">Log in</h1>
+            <div class="form-group">
+              <!-- <label for="email">Email</label><br /> -->
+              <input type="email" required autocomplete="email" class='form-control' placeholder="Email">
+              <!-- <%= f.email_field :email, autofocus: true, autocomplete: "email", class: "form-control" %> -->
+            </div>
+            <div class="form-group">
+              <!-- <label for="password">Password</label><br> -->
+              <input type="password" required class='form-control' placeholder="password">
+              <!-- <%= f.label :password %> -->
+              <!-- <%= f.password_field :password, autocomplete: "current-password", class: "form-control" %> -->
+            </div>
+            <div class="5">
+              <button class="btn btn-primary form-control" role='button'>Log In</button>
+              <!-- <%= f.submit "Log in", class: "btn btn-lg btn-primary btn-block" %> -->
+            </div>
+        </form>
+        <a href="#">Sign up</a>
+        </div>
+        <div class="col-md-4 offset-md-4"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <p> <br> <br> <br> <br> <br> <br></p>
+      </div>
+    </div>
+  </body>
+</html>

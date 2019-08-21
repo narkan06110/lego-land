@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Navbar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap.css" media="screen">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <div class="container">
+            <div id="navbar-collapse" class="navbar-collapse collapse navbar-right">
+                <ul class="navbar-nav my-2 my-lg-0 ">
+                    <li class="nav-item"><a class='nav-link' href="index.html">Home</a></li>
+                    
+                    <!-- <%unless user_signed_in? %> -->
+                      <!-- <li class="dropdown right-nav">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Login/Signup</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="<%=new_user_session_path%>">Login</a></li>
+                          <li><a href="<%=new_user_registration_path%>">Sign Up</a></li>
+                        </ul>
+                      </li> -->
+                    <!-- <%else%> -->
+                        <li class="dropdown nav-item right-nav">
+                            <a class='nav-link' href="#" data-toggle="dropdown" class="dropdown-toggle active">My Profile</a>
+                            <ul class="dropdown-menu">
+                              <li class="nav-item"><a href="#">See my profil</a></li>
+                              <li class="nav-item"><a href="#">Create a new event</a></li>
+                              <li class="nav-item"><a href="#">Edit my password/email</a></li>
+                              <li class="nav-item"><a href="#">Edit my information</a></li>
+                              <li class="nav-item"><a href="#">Disconnect</a></li>
+                            </ul>
+                        </li>
+                        
+                    <!-- <%end%> -->
+                </ul>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
